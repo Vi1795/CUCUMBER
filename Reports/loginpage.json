@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-07T15:19:09.815Z",
+        "line": 3,
+        "name": "Test Login Functionality",
+        "description": "",
+        "id": "test-orange-hrm-application;test-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6239858600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "com.StepDefination.LoginPageTest.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3929646800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter valid credentials",
+            "match": {
+              "location": "com.StepDefination.LoginPageTest.user_enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23936000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "com.StepDefination.LoginPageTest.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-07T15:19:20.081Z",
+        "line": 8,
+        "name": "test home Page Functionality",
+        "description": "",
+        "id": "test-orange-hrm-application;test-home-page-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1702178700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "test logo is present or not",
+            "match": {
+              "location": "com.StepDefination.HomePageTest.test_logo_is_present_or_not()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4148732300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on view My Details",
+            "match": {
+              "location": "com.StepDefination.HomePageTest.click_on_view_my_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-07T15:19:25.944Z",
+        "line": 12,
+        "name": "Test My Info Page",
+        "description": "",
+        "id": "test-orange-hrm-application;test-my-info-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 138632200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on edit button",
+            "match": {
+              "location": "com.StepDefination.MyInfoViewPageTest.user_click_on_edit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2006768100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter first name middle name and last name",
+            "match": {
+              "location": "com.StepDefination.MyInfoViewPageTest.user_enter_first_name_middle_name_and_last_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 210439400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter employee id",
+            "match": {
+              "location": "com.StepDefination.MyInfoViewPageTest.user_enter_employee_id()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 120675100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user select female radio button",
+            "match": {
+              "location": "com.StepDefination.MyInfoViewPageTest.user_select_female_radio_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1890973600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user select nationality",
+            "match": {
+              "location": "com.StepDefination.MyInfoViewPageTest.user_select_nationality()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1710627800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click on save button",
+            "match": {
+              "location": "com.StepDefination.MyInfoViewPageTest.user_click_on_save_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Orange HRM application",
+    "description": "",
+    "id": "test-orange-hrm-application",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/loginfile.feature",
+    "tags": []
+  }
+]
